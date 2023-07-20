@@ -8,7 +8,7 @@ file_path = path + '/pyProject/VScode/pyOutput/' + 'data.csv'
 data = {
     'Name': ['valentin', 'Bob', 'Charlie', 'David'],
     'Age': [25, 30, 22, 28],
-    'City': ['New York', 'London', 'Paris', 'Tokyo']
+    'City': ['New York', 'London', 'Paris', 'Rabat']
 }
 
 # Create the DataFrame
@@ -23,4 +23,4 @@ print(tabulate(df, headers='keys', tablefmt='psql'))
 df.to_csv(file_path, sep='\t', index=False)
 
 print(f"DataFrame saved to {file_path}")
->>>>>>> Stashed changes
+
